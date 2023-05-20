@@ -13,4 +13,4 @@ This repository contains basic starting point of a new node projects, I have no 
 ## To Do
 
 - [ ] Probably docker file would be nice, we'll see.
-- [ ] Configuration... cannot believe I forgot this one.
+- [x] Configuration... cannot believe I forgot this one.
