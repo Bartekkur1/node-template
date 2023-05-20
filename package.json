@@ -20,7 +20,6 @@
   "homepage": "https://github.com/Bartekkur1/node-template#readme",
   "devDependencies": {
     "@types/jest": "^29.5.1",
-    "@types/node": "^20.1.1",
     "@types/sinon": "^10.0.15",
     "@types/uuid": "^9.0.1",
     "@typescript-eslint/eslint-plugin": "^5.59.6",
