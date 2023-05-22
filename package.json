@@ -19,12 +19,13 @@
   },
   "homepage": "https://github.com/Bartekkur1/node-template#readme",
   "devDependencies": {
+    "@types/dotenv": "^8.2.0",
     "@types/jest": "^29.5.1",
     "@types/sinon": "^10.0.15",
     "@types/uuid": "^9.0.1",
+    "@types/winston": "^2.4.4",
     "@typescript-eslint/eslint-plugin": "^5.59.6",
     "@typescript-eslint/parser": "^5.59.6",
-    "@types/dotenv": "^8.2.0",
     "eslint": "^8.41.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
@@ -35,6 +36,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "winston": "^3.8.2"
   }
 }

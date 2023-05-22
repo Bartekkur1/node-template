@@ -14,3 +14,4 @@ This repository contains basic starting point of a new node projects, I have no 
 
 - [ ] Probably docker file would be nice, we'll see.
 - [x] Configuration... cannot believe I forgot this one.
+- [x] Logger (facepalm)
