@@ -1,6 +1,29 @@
 {
   "env": {
-    "jest": true
+    "es2023": true,
+    "jest": true,
+    "node": true
   },
-  "extends": "airbnb-base"
+  "extends": "airbnb-base",
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "no-await-in-loop": "off"
+  }
 }
