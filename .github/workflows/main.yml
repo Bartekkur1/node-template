@@ -1,0 +1,15 @@
+name: Build, test and deploy node project
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
