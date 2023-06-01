@@ -7,13 +7,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Build
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-      
-      - name: Build
         with:
           node-version: '18.x'
-        run: npm ci | npm run build
+        - run: npm ci
+        - run: npm run build
       
       - name: Tests
         with:
